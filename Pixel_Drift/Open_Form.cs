@@ -16,5 +16,29 @@ namespace Pixel_Drift
         {
             InitializeComponent();
         }
+
+        private void btn_dang_ki_Click(object sender, EventArgs e)
+        {
+            Form_Dang_Ki formdangki = new Form_Dang_Ki();
+            this.Hide();
+            formdangki.Show();
+        }
+
+        private void btn_thoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_dang_nhap_Click(object sender, EventArgs e)
+        {
+            Form_Dang_Nhap formdangnhap = new Form_Dang_Nhap();
+            this.Hide();
+            formdangnhap.Show();
+        }
     }
 }

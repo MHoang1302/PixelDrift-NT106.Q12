@@ -16,7 +16,7 @@ namespace Pixel_Drift
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Dang_Nhap());
+            Application.Run(new Open_Form());
         }
     }
 }
